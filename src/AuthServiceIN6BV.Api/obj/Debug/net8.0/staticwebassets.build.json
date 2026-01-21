@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "TJggN32dSPePmt2IA8SOD6hJ89k+SV5CNtb5JYOYLRs=",
+  "Source": "AuthServiceIN6BV.Api",
+  "BasePath": "_content/AuthServiceIN6BV.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
