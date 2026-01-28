@@ -37,5 +37,10 @@ public static class UuidGenerator
 
             return idPart.All(c => Alphabet.Contains(c));
     }
+
+    public static string GenerateRoleId()
+    {
+        return $"role_{GenerateShorUUID()}";
+    }
     
 }
