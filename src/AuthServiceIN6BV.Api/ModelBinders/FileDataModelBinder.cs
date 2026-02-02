@@ -1,6 +1,7 @@
 using System;
 using System.Threading.Tasks;
 using AuthServiceIN6BV.Api.Models;
+using AuthServiceIN6BV.Application.InTerface;
 using AuthServiceIN6BV.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
  
@@ -23,7 +24,7 @@ public class FileDataModelBinder : IModelBinder
  
         if(file != null && file.Length > 0)
         {
-            var fileData = new FormFIleAdapter(file);
+            var fileData = new FormFileAdapter(file);
             bindingContext.Result = ModelBindingResult.Success(fileData);
         }
         else
@@ -34,7 +35,7 @@ public class FileDataModelBinder : IModelBinder
     }
 }
 
-public class FileFataModelBinderProvider : IModelBinderProvider
+public class FileDataModelBinderProvider : IModelBinderProvider
 {
     public IModelBinder? GetBinder(ModelBinderProviderContext context)
     {

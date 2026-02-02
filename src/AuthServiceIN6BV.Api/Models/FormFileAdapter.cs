@@ -35,5 +35,5 @@ public class FormFileAdapter : IFileData
     public string FileName => _formFile.FileName;
     public long Length => _formFile.Length;
 
-    
+    public long Size => throw new NotImplementedException();
 }
