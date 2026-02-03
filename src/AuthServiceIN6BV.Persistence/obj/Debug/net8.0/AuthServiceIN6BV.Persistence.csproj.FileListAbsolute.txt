@@ -15,9 +15,6 @@ C:\2024396\AuthServiceBilly\src\AuthServiceIN6BV.Persistence\obj\Debug\net8.0\Au
 C:\2024396\AuthServiceBilly\src\AuthServiceIN6BV.Persistence\obj\Debug\net8.0\refint\AuthServiceIN6BV.Persistence.dll
 C:\2024396\AuthServiceBilly\src\AuthServiceIN6BV.Persistence\obj\Debug\net8.0\AuthServiceIN6BV.Persistence.pdb
 C:\2024396\AuthServiceBilly\src\AuthServiceIN6BV.Persistence\obj\Debug\net8.0\ref\AuthServiceIN6BV.Persistence.dll
-C:\Proyecto_.net\src\AuthServiceIN6BV.Persistence\obj\Debug\net8.0\AuthServiceIN6BV.Persistence.dll
-C:\Proyecto_.net\src\AuthServiceIN6BV.Persistence\obj\Debug\net8.0\refint\AuthServiceIN6BV.Persistence.dll
-C:\Proyecto_.net\src\AuthServiceIN6BV.Persistence\obj\Debug\net8.0\AuthServiceIN6BV.Persistence.pdb
 C:\Proyecto_.net\src\AuthServiceIN6BV.Persistence\bin\Debug\net8.0\AuthServiceIN6BV.Persistence.deps.json
 C:\Proyecto_.net\src\AuthServiceIN6BV.Persistence\bin\Debug\net8.0\AuthServiceIN6BV.Persistence.runtimeconfig.json
 C:\Proyecto_.net\src\AuthServiceIN6BV.Persistence\bin\Debug\net8.0\AuthServiceIN6BV.Persistence.dll
@@ -33,5 +30,8 @@ C:\Proyecto_.net\src\AuthServiceIN6BV.Persistence\obj\Debug\net8.0\AuthServiceIN
 C:\Proyecto_.net\src\AuthServiceIN6BV.Persistence\obj\Debug\net8.0\AuthServiceIN6BV.Persistence.csproj.CoreCompileInputs.cache
 C:\Proyecto_.net\src\AuthServiceIN6BV.Persistence\obj\Debug\net8.0\AuthServiceIN6BV.Persistence.sourcelink.json
 C:\Proyecto_.net\src\AuthServiceIN6BV.Persistence\obj\Debug\net8.0\AuthServ.9FF9A057.Up2Date
+C:\Proyecto_.net\src\AuthServiceIN6BV.Persistence\obj\Debug\net8.0\AuthServiceIN6BV.Persistence.dll
+C:\Proyecto_.net\src\AuthServiceIN6BV.Persistence\obj\Debug\net8.0\refint\AuthServiceIN6BV.Persistence.dll
+C:\Proyecto_.net\src\AuthServiceIN6BV.Persistence\obj\Debug\net8.0\AuthServiceIN6BV.Persistence.pdb
 C:\Proyecto_.net\src\AuthServiceIN6BV.Persistence\obj\Debug\net8.0\AuthServiceIN6BV.Persistence.genruntimeconfig.cache
 C:\Proyecto_.net\src\AuthServiceIN6BV.Persistence\obj\Debug\net8.0\ref\AuthServiceIN6BV.Persistence.dll

@@ -10,4 +10,9 @@ services:
       POSTGRES_USER: root
       POSTGRES_PASSWORD: admin
     ports:
-     - "5435:5432"
+     - "5437:5432"
+    volumes: 
+     - postgres_data:/var/lib/postgressql/postgres_data
+
+volumes:
+  postgres_data: 
