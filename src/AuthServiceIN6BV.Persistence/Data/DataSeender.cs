@@ -35,7 +35,7 @@ public static class DataSeeder
 
             if(adminRole != null)
             {
-                var passwordHasher = new PasswordHasServices();
+                var passwordHasher = new PasswordHashService();
                 var profileId = UuidGenerator.GenerateUserId();
                 var emailId = UuidGenerator.GenerateUserId();
                 var userRoleId = UuidGenerator.GenerateUserId();

@@ -4,7 +4,7 @@ public class RegisterResponseDto
 {
     public bool Success {get; set;}
 
-    public UserResponseDto User {get; set;} = null;
+    public UserResponseDto? User {get; set;}
 
     public string Message {get; set;} = string.Empty;
 

@@ -6,5 +6,5 @@ public class ResetPasswordDto
     [Required]
     [MinLength (8)]
     public string Token {get; set;} = string.Empty;
-    public string NewPassword { get; internal set; }
+    public string NewPassword { get; internal set; } = string.Empty;
 }

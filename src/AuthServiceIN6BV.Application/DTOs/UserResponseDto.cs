@@ -5,7 +5,7 @@ namespace AuthServiceIN6BV.Application.DTOs;
 public class UserResponseDto
 {
     public string id {get; set;} = string.Empty;
-    public string Id { get; internal set; }
+    public string Id { get; internal set; } = string.Empty;
     public string Name {get; set;} = string.Empty;
 
     public string Surname {get; set;} = string.Empty;

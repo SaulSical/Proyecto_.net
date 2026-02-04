@@ -122,7 +122,7 @@ public class CloudinaryService(IConfiguration configuration) : ICloudinaryServic
     /// <summary>
     /// Devuelve la ruta del avatar por defecto.
     /// </summary>
-    public string GetDefaultAvatarUrl()
+    public string GetDefaulAvatarUrl()
     {
         var defaultFile = configuration["CloudinarySettings:DefaultAvatarPath"]
                           ?? "default-avatar.png";
@@ -136,7 +136,7 @@ public class CloudinaryService(IConfiguration configuration) : ICloudinaryServic
     /// </summary>
     /// <param name="fileName">Ruta relativa de la imagen</param>
     /// <returns>URL completa de la imagen</returns>
-    public string GetFullImageUrl(string fileName)
+    public string GetFullimageUrl(string fileName)
     {
         // URL base de Cloudinary
         var baseUrl = configuration["CloudinarySettings:BaseUrl"]
@@ -154,14 +154,4 @@ public class CloudinaryService(IConfiguration configuration) : ICloudinaryServic
         return $"{baseUrl}w_400,h_400,c_fill,g_auto,q_auto,f_auto/{fileName}";
     }
 
-    // Métodos pendientes de implementar (probablemente duplicados)
-    public string GetDefaulAvatarUrl()
-    {
-        throw new NotImplementedException();
-    }
-
-    public string GetFullimageUrl(string imagePath)
-    {
-        throw new NotImplementedException();
-    }
 }

@@ -9,6 +9,5 @@ public interface ICloudinaryService
     string GetDefaulAvatarUrl();
 
     string GetFullimageUrl(string imagePath);
-    string GetFullImageUrl(string v);
 }
 
