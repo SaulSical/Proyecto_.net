@@ -1,10 +1,9 @@
-namespace AuthServiceIN6BV.Application.InTerface;
+namespace AuthServiceIN6BV.Application.Interfaces;
 
 public interface IEmailService
 {
     Task SendEmailVerificationAsync(string email, string username, string token);
 
     Task SendPasswordResetAsync(string email, string username, string token);
-
-    Task SendWelcomEmailAsync(string email, string username);
+    Task SendWelcomeEmailAsync(string email, object username);
 }

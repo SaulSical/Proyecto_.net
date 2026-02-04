@@ -1,4 +1,4 @@
-namespace AuthServiceIN6BV.Application.InTerface;
+namespace AuthServiceIN6BV.Application.Interfaces;
 
 public interface ICloudinaryService
 {
@@ -9,6 +9,6 @@ public interface ICloudinaryService
     string GetDefaulAvatarUrl();
 
     string GetFullimageUrl(string imagePath);
-
+    string GetFullImageUrl(string v);
 }
 

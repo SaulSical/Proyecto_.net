@@ -5,7 +5,7 @@ namespace AuthServiceIN6BV.Application.DTOs;
 public class UserResponseDto
 {
     public string id {get; set;} = string.Empty;
-
+    public string Id { get; internal set; }
     public string Name {get; set;} = string.Empty;
 
     public string Surname {get; set;} = string.Empty;
@@ -20,7 +20,7 @@ public class UserResponseDto
 
     public string Role {get; set;} = string.Empty;
 
-    public bool status {get; set;}
+    public bool Status {get; set;}
 
     public bool IsEmailVerifid {get; set;}
 

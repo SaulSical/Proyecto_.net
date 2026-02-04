@@ -1,7 +1,6 @@
 using System;
 using System.Threading.Tasks;
 using AuthServiceIN6BV.Api.Models;
-using AuthServiceIN6BV.Application.InTerface;
 using AuthServiceIN6BV.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
  

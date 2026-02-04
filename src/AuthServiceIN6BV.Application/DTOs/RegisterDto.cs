@@ -1,5 +1,5 @@
 
-using AuthServiceIN6BV.Application.InTerface;
+using AuthServiceIN6BV.Application.Interfaces;
 using System.ComponentModel.DataAnnotations;
 namespace AuthServiceIN6BV.Application.DTOs;
 

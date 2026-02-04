@@ -12,7 +12,7 @@ public class PasswordHasServices : IPasswordHashService
     private const int Iterations = 2; // Number of iterations
     private const int Memory = 102400; // 100 MB
     private const int Parallelism = 8; // Number of threads
-    public string HashPassword(string password)
+    public string HashPassword(object password)
     {
         //Encriptacion de la contraseña usando Argon2id
         var salt = new byte[SaltSize];
@@ -20,7 +20,8 @@ public class PasswordHasServices : IPasswordHashService
         {
             rng.GetBytes(salt);
         }
-        var argon2 = new Argon2id(Encoding.UTF8.GetBytes(password))
+        var passwordString = password?.ToString() ?? string.Empty;
+        var argon2 = new Argon2id(Encoding.UTF8.GetBytes(passwordString))
         {
             Salt = salt,
             DegreeOfParallelism = Parallelism,
@@ -161,5 +162,10 @@ public class PasswordHasServices : IPasswordHashService
         }
         //Retornar el base64 estandar
         return base64;
+    }
+
+    public string HashPassword(string password)
+    {
+        throw new NotImplementedException();
     }
 }

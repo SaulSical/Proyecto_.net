@@ -1,7 +1,7 @@
 using AuthServiceIN6BV.Application.DTOs;
 using AuthServiceIN6BV.Application.DTOs.Email;
 
-namespace AuthServiceIN6BV.Application.Interface;
+namespace AuthServiceIN6BV.Application.Interfaces;
 
 public interface IAuthService
 {
@@ -13,7 +13,7 @@ public interface IAuthService
     Task <EmailResponseDto> ResendVerificationEmailAsync(ResendVerificationDto resendVerificationDto);
     Task <EmailResponseDto> ForgotPasswordAsync(ForgotPasswordDto forgotPasswordDto);
     Task <EmailResponseDto> ResetPasswordAsync(ResetPasswordDto resetPasswordDto);
-    Task<UserResponseDto> GetUserByAsync(string userId);
+    Task<UserResponseDto?> GetUserByIdAsync(string userId);
 
     
      

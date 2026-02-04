@@ -1,4 +1,3 @@
-using AuthServiceIN6BV.Application.InTerface;
 using AuthServiceIN6BV.Application.Interfaces;
 
 namespace AuthServiceIN6BV.Api.Models;
